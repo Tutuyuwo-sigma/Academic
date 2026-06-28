@@ -1,0 +1,16 @@
+com\mycompany\academic\Academic.class
+com\mycompany\academic\exception\AuthenticationException.class
+com\mycompany\academic\user\Admin.class
+com\mycompany\academic\user\Student.class
+com\mycompany\academic\security\AccessControl.class
+com\mycompany\academic\user\SeniorStudent.class
+com\mycompany\academic\AppSystem.class
+com\mycompany\academic\Model\Material.class
+com\mycompany\academic\Main.class
+com\mycompany\academic\Model\Rating.class
+com\mycompany\academic\user\User.class
+com\mycompany\academic\Model\MaterialRequest.class
+com\mycompany\academic\Model\Report.class
+com\mycompany\academic\Model\CustomRequest.class
+com\mycompany\academic\Model\Course.class
+com\mycompany\academic\exception\AccessDeniedException.class

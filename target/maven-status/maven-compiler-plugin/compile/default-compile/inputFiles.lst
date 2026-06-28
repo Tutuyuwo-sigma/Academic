@@ -1,0 +1,16 @@
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Academic.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\AppSystem.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\exception\AccessDeniedException.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\exception\AuthenticationException.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Main.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Model\Course.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Model\CustomRequest.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Model\Material.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Model\MaterialRequest.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Model\Rating.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\Model\Report.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\security\AccessControl.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\user\Admin.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\user\SeniorStudent.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\user\Student.java
+C:\Users\user\OneDrive\Dokumen\NetBeansProjects\academic\src\main\java\com\mycompany\academic\user\User.java
