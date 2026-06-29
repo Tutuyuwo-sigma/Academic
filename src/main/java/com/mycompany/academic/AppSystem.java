@@ -31,26 +31,26 @@ public class AppSystem implements AccessControl {
 
     private void seedData() {
         userDatabase.put("admin@gmail.com", new Admin("Admin Utama", "admin@gmail.com"));
-        passwordDatabase.put("admin@gmail.com", "password");
+        passwordDatabase.put("admin@gmail.com", "123);
         
-        Student s = new Student("Andi Siswa", "student@gmail.com", "RPL", 1);
+        Student s = new Student("asep67 ", "student@gmail.com", "RPL", 1);
         userDatabase.put("student@gmail.com", s);
-        passwordDatabase.put("student@gmail.com", "password");
+        passwordDatabase.put("student@gmail.com", "123");
         
         SeniorStudent senior = new SeniorStudent("Senior Budi", "senior@gmail.com", "RPL");
         userDatabase.put("senior@gmail.com", senior);
-        passwordDatabase.put("senior@gmail.com", "password");
+        passwordDatabase.put("senior@gmail.com", "123");
 
         Course rpl1 = new Course(1, "Dasar Pemrograman", "RPL", 1);
         Course rpl3 = new Course(2, "OOP Java", "RPL", 3);
         courses.add(rpl1);
         courses.add(rpl3);
 
-        materials.add(new Material(1, rpl1, "Algoritma Pemrograman", "materials/flowchart.pdf", "Free", "published"));
-        materials.add(new Material(2, rpl3, "Polimorfisme OOP", "materials/oop_presentation.pptx", "Premium", "published"));
-        materials.add(new Material(3, rpl1, "Struktur Folder Proyek", "materials/project_structure.png", "Free", "published"));
+        materials.add(new Material(1, rpl1, "Alpro", "materials/flowchart.pdf", "Free", "published"));
+        materials.add(new Material(2, rpl3, "Polimorfrisme oop", "materials/oop_presentation.pptx", "Premium", "published"));
+        materials.add(new Material(3, rpl1, "Arsitektur organiasi komputer", "materials/project_structure.png", "Free", "published"));
 
-        customRequests.add(new CustomRequest(1, s, "Butuh Modul Belajar Flutter", "Panduan instalasi SDK sampai pembuatan halaman login", 75000));
+        customRequests.add(new CustomRequest(1, s, "Butuh Modul Belajar Alpro", "Panduan instalasi SDK ", 15000));
     }
 
     public User login(String email, String password) throws AuthenticationException {
@@ -73,7 +73,6 @@ public class AppSystem implements AccessControl {
         passwordDatabase.put(email, password);
     }
 
-    // Alur Request Premium Baru
     public void requestPremium(Student s, Material m) {
         premiumRequests.add(new MaterialRequest(premiumRequests.size() + 1, s, m, "unpaid"));
     }
@@ -150,9 +149,17 @@ public class AppSystem implements AccessControl {
     }
 
     public ArrayList<CustomRequest> getCustomRequests() { return customRequests; }
-    public ArrayList<Rating> getRatings() { return ratings; }
-    public ArrayList<Report> getReports() { return reports; }
-    public ArrayList<Course> getCourses() { return courses; }
+    public ArrayList<Rating> getRatings() { 
+        return ratings; 
+    }
+    
+    public ArrayList<Report> getReports() { 
+        return reports; 
+    }
+    
+    public ArrayList<Course> getCourses() { 
+        return courses; 
+    }
 
     @Override
     public boolean hasAccess(User user, Material material) {
